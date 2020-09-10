@@ -25,6 +25,7 @@ video{
     font-family: 'Amatic SC', cursive;
     color: white;
     font-size: 3rem;
+    margin-left: 25rem;
 }
 @media screen and (max-width: 900px){
     .hero-title{
@@ -33,5 +34,6 @@ video{
     }
     .hero-subtitle{
         font-size: 2rem;
+        margin-left: 0rem;
     }
 }
