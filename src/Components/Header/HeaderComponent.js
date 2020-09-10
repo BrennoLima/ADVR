@@ -14,7 +14,7 @@ const Header = () => {
 
     return(
         <div className="container-fluid navbar-container">
-            <BlackNavbar dark expand="md">
+            <BlackNavbar dark expand="md" fixed="top">
                 <NavbarBrand className="navbar-brand">ADVR <i className="fas fa-mountain ml-2"/></NavbarBrand>
                 <NavbarToggler onClick={toggle} className="toggler"/>
                 <Collapse isOpen={isOpen} navbar>
