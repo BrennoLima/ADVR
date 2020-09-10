@@ -1,5 +1,7 @@
 import React from 'react';
 import BackgroundVideo from '../../assets/videos/Adventure4.mp4'
+import BackgroundGiff from '../../assets/videos/Adventure4-2.gif'
+import { Image } from 'react-bootstrap'
 import {Button} from 'reactstrap'
 import styled from 'styled-components'
 import './hero.css'
@@ -32,7 +34,8 @@ const Button2 = styled(Button)`
 const Hero = () => {
     return(
         <div className="container-fluid hero-container">
-            <video src={BackgroundVideo} alt="Video" autoPlay loop muted/>
+            {/*<video src={BackgroundVideo} alt="Video" autoPlay loop muted/>*/}
+            <Image src={BackgroundGiff} alt="BackgroundVideo" className="backgroundVideo"/>
             <div className="row">
                 <div className="col-12">
                     <h1 className="hero-title">Adventure Awaits</h1>
