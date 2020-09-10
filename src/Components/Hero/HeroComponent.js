@@ -32,7 +32,7 @@ const Button2 = styled(Button)`
 const Hero = () => {
     return(
         <div className="container-fluid hero-container">
-            <video src={BackgroundVideo} autoPlay loop muted/>
+            <video src={BackgroundVideo} alt="Video" autoPlay loop muted/>
             <div className="row">
                 <div className="col-12">
                     <h1 className="hero-title">Adventure Awaits</h1>
