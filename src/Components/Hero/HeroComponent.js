@@ -40,6 +40,8 @@ const Hero = () => {
                 <div className="col-12">
                     <h2 className="hero-subtitle">what are you waiting for?</h2>
                 </div>
+            </div>
+            <div className="row mobile">
                 <div className="col-12">
                     <Button1 outline className="btn-1">GET STARTED</Button1>
                 </div>

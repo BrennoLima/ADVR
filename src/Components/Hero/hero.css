@@ -36,4 +36,7 @@ video{
         font-size: 2rem;
         margin-left: 0rem;
     }
+    .mobile{
+        margin-top: 25rem;
+    }
 }
