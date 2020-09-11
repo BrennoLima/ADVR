@@ -8,7 +8,7 @@
 .backgroundVideo{
     object-fit: cover;
     width: 100%;
-    min-height: 95vh;
+    height: 94vh;
     position: absolute;
     z-index: -1;
 }
