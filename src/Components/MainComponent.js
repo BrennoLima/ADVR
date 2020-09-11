@@ -8,6 +8,7 @@ const Main = () => {
         <>
             <Header/>
             <Hero/>
+            <Hero/>
             <Switch>
                 <Route exact path='/'/>
             </Switch>
