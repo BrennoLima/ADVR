@@ -1,6 +1,7 @@
 .navbar-container{
     padding: 0rem !important;
     text-align: center;
+    min-height: 5vh;
 }
 .navbar-brand{
     font-family: 'Carter One', cursive;

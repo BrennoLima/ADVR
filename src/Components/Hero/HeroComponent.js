@@ -1,5 +1,4 @@
 import React from 'react';
-import BackgroundVideo from '../../assets/videos/Adventure4.mp4'
 import BackgroundGiff from '../../assets/videos/Adventure4-2.gif'
 import { Image } from 'react-bootstrap'
 import {Button} from 'reactstrap'
