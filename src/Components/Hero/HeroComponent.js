@@ -33,7 +33,6 @@ const Button2 = styled(Button)`
 const Hero = () => {
     return(
         <div className="container-fluid hero-container">
-            {/*<video src={BackgroundVideo} alt="Video" autoPlay loop muted/>*/}
             <Image src={BackgroundGiff} alt="BackgroundVideo" className="backgroundVideo"/>
             <div className="row">
                 <div className="col-12">
