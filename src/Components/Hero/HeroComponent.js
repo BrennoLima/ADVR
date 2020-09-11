@@ -32,25 +32,29 @@ const Button2 = styled(Button)`
 
 const Hero = () => {
     return(
-        <div className="container-fluid hero-container">
-            <Image src={BackgroundGiff} alt="BackgroundVideo" className="backgroundVideo"/>
-            <div className="row">
-                <div className="col-12">
-                    <h1 className="hero-title">Adventure Awaits</h1>
-                </div>
-                <div className="col-12">
-                    <h2 className="hero-subtitle">what are you waiting for?</h2>
+        <>
+            <div className="container-fluid background-container">
+                <div className="row row-content">
+                    <img src={BackgroundGiff} className="backgroundVideo" fluid="true"/>
                 </div>
             </div>
-            <div className="row mobile">
-                <div className="col-12">
-                    <Button1 outline className="btn-1">GET STARTED</Button1>
-                </div>
-                <div className="col-12">
-                    <Button2 outline className="btn-2">WATCH TRAILER  <i className="far fa-play-circle fa-lg"/></Button2>
+            <div className="container-fluid hero-container">
+                <div className="row">
+                    <div className="col-12">
+                        <h1 className="hero-title">Adventure Awaits</h1>
+                    </div>
+                    <div className="col-12">
+                        <h2 className="hero-subtitle">what are you waiting for?</h2>
+                    </div>
+                    <div className="col-12">
+                        <Button1 outline className="btn-1">GET STARTED</Button1>
+                    </div>
+                    <div className="col-12">
+                        <Button2 outline className="btn-2">WATCH TRAILER  <i className="far fa-play-circle fa-lg"/></Button2>
+                    </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 
