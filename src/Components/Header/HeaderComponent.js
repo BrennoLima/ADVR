@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import {NavLink} from 'react-router-dom'
 import { Navbar, NavbarBrand, NavItem, Nav, NavbarToggler, Collapse} from 'reactstrap';
-import OnOutsiceClick from 'react-outclick';
 import './header.css';
 import styled from 'styled-components'
 
@@ -12,7 +11,7 @@ const BlackNavbar = styled(Navbar)`
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
-    const close = () => setIsOpen(!isOpen);
+    
     return(
         <div className="container-fluid navbar-container">
             <BlackNavbar dark expand="md">
