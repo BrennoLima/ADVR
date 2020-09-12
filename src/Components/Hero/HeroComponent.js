@@ -1,6 +1,5 @@
 import React from 'react';
 import BackgroundGiff from '../../assets/videos/Adventure10.gif'
-import BackgroundVideo from '../../assets/videos/Adventure9-long.mp4'
 import {Button} from 'reactstrap'
 import styled from 'styled-components'
 import './hero.css'
@@ -35,7 +34,6 @@ const Hero = () => {
         <>
             <div className="container-fluid background-container">
                 <div className="row row-content">
-                    {/*<video src={BackgroundVideo} alt="Background video" className="backgroundVideo" loop autoPlay muted/>*/}
                     <img src={BackgroundGiff} alt="Background giff" className="backgroundVideo"/>
                 </div>
             </div>

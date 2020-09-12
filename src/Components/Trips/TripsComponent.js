@@ -1,46 +1,39 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card'
-import styled from 'styled-components'
 import diving from '../../assets/images/diving.png'
 import MachuPicchu from '../../assets/images/MachuPicchu1.png'
-
-import './trips.css'
-
-
+import Banff from '../../assets/images/banff2.png'
+import TajMahal from '../../assets/images/TajMahal2.png'
+import Egypt from '../../assets/images/Egypt2.png'
+import CardItem from '../CardItem'
+import '../Adventures/adventures.css'
 
 const Trips = () => {
     return(
         <div className="container-fluid trips-container">
-            <div className="row row-title">
+            <div className="row row-title justify-content-center">
                 <div className="col-12">
-                    <h1 className="trips-title">Start your journey here</h1>
+                    <h1 className="trips-title2">Looking for something more serene?</h1>
                 </div>
-            </div>
-            <div className="row row-cards">
-                <div className="col-12 col-md-3 offset-md-3">
-                    <Card variant="default" className="card_container">
-                        <Card.Img variant="default" top="true" src={diving} alt="Diving" className="card_img"/>
-                        <Card.Body className="card_body">
-                            <Card.Title><p className="card_title">Great Barrier Reef</p></Card.Title>
-                            <p className="card_subtitle"><strong>SEA LOVER?</strong></p>
-                            <p className="card_text">Explore the world's largest coral reef system in Australia</p>
-                        </Card.Body>
-                    </Card>
+                <div className="col-12 col-md-3 offset-md-1">
+                    <CardItem src={Banff} title={'Lake Louise'} subtitle={'CANADIAN HIDDEN GEM'} text={"Glance at Banff's breathtaking landscaping"}/>
                 </div>
                 <div className="col-12 col-md-3">
-                    <Card variant="default" className="card_container">
-                        <Card.Img variant="default" top="true" src={MachuPicchu} alt="MachuPicchu" className="card_img"/>
-                        <Card.Body className="card_body">
-                            <Card.Title><p className="card_title">Machu Picchu</p></Card.Title>
-                            <p className="card_subtitle"><strong>A TRAVEL TO THE PAST</strong></p>
-                            <p className="card_text">Find out more about the mysterious Incan civilization.</p>
-                        </Card.Body>
-                    </Card>
+                    <CardItem src={TajMahal} title={'Taj Mahal'} subtitle={"A WONDER OF THE WORLD"} text={"Sense the architecture perfection"}/>
+                </div> 
+                <div className="col-12 col-md-3">
+                    <CardItem src={diving} title={'Great Barrier Reef'} subtitle={'INTO THE DEPTHS'} text={"Explore the world's largest coral reef system"}/>
                 </div>
+                <div className="col-md-1"/>
+                <div className="col-12 col-md-3">
+                    <CardItem src={MachuPicchu} title={'Machu Picchu'} subtitle={'A TRAVEL TO THE PAST'} text={"Undercove the mysterious Incan civilization."}/>
+                </div>
+                <div className="col-12 col-md-3">
+                    <CardItem src={Egypt} title={'Ginza Pyramids'} subtitle={"THE PHARAOH'S REST"} text={"Learn the ancient history of Egypt"}/>
+                </div>  
             </div>
-            
         </div>
-    )
+        
+    );
 }
 
 export default Trips;
