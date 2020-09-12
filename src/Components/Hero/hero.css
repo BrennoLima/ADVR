@@ -19,7 +19,11 @@
     height: 100vh;
     width: 100vw;
 }
-
+.gradient-hero{
+    background-image: linear-gradient(black, transparent);
+    height: 10rem;
+    z-index: 1;
+}
 .hero-title{
     font-family: 'Amatic SC', cursive;
     color: white;

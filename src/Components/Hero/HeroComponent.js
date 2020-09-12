@@ -17,16 +17,8 @@ const Button1 = styled(Button)`
         transition: all 0.5s ease-out;
     }
 `;
-const Button2 = styled(Button)`
-    font-family: 'Lato', sans-serif;
-    border-color: white;
-    color: white;
+const Button2 = styled(Button1)`
     margin-top: 1rem;
-    &:hover{
-        color: black;
-        background-color: white;
-        transition: all 0.5s ease-out;
-    }
 `;
 
 const Hero = () => {
@@ -47,10 +39,10 @@ const Hero = () => {
                     </div>
 
                     <div className="col-12">
-                        <Button1 outline className="btn-1">GET STARTED</Button1>
+                        <Button1 outline>GET STARTED</Button1>
                     </div>
                     <div className="col-12">
-                        <Button2 outline className="btn-2">WATCH TRAILER  <i className="far fa-play-circle fa-lg"/></Button2>
+                        <Button2 outline>WATCH TRAILER  <i className="far fa-play-circle fa-lg"/></Button2>
                     </div>
                 </div>
             </div>

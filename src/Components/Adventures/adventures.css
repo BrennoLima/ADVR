@@ -2,6 +2,7 @@
     background-color: black;
     align-items: center;
     text-align: center;
+    padding-bottom: 4rem;
 }
 .row-cards{
     margin-top: 5rem;
@@ -21,9 +22,11 @@ h1{
     font-size: 5rem;
     margin-top: 4rem;
 }
-.card_container{
+.card_container{    
     border-radius: 2rem !important; 
     margin-top: 4rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     box-shadow: 0rem 0.5rem 3rem #acaaaa;
     max-width: 25vw;
     overflow: hidden;
