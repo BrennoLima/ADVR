@@ -39,10 +39,10 @@ const Hero = () => {
                     </div>
 
                     <div className="col-12">
-                        <Button1 outline>GET STARTED</Button1>
+                        <Button1 outline='true'>GET STARTED</Button1>
                     </div>
                     <div className="col-12">
-                        <Button2 outline>WATCH TRAILER  <i className="far fa-play-circle fa-lg"/></Button2>
+                        <Button2 outline='true'>WATCH TRAILER  <i className="far fa-play-circle fa-lg"/></Button2>
                     </div>
                 </div>
             </div>
