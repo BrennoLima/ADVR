@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import {NavLink} from 'react-router-dom'
 import { Navbar, NavbarBrand, NavItem, Nav, NavbarToggler, Collapse} from 'reactstrap';
 import './header.css';
 import styled from 'styled-components'
@@ -20,16 +19,16 @@ const Header = () => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink className="nav-link" to="/home">Home</NavLink>
+                            <a className="nav-link" href="/">Home</a>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" to="/adventures">Adventures</NavLink>
+                            <a className="nav-link" href="#adventures">Adventures</a>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" to="/trips">Trips</NavLink>
+                            <a className="nav-link" href="#trips">Trips</a>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" to="/signin">Sign-in</NavLink>
+                            <a className="nav-link" href="/signin">Sign-in</a>
                         </NavItem>
                     </Nav>
                 </Collapse>

@@ -9,7 +9,7 @@ import './adventures.css'
 
 const Adventures = () => {
     return(
-        <div className="container-fluid trips-container">
+        <div className="container-fluid trips-container" id="adventures">
             <div className="row row-title justify-content-center">
                 <div className="col-12">
                     <h1 className="trips-title">Start your journey here</h1>
