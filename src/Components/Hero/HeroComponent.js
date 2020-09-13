@@ -23,12 +23,12 @@ const Button2 = styled(Button1)`
 
 const Hero = () => {
     return(
-        <>
-            <div className="container-fluid background-container">
-                <div className="row row-content">
-                    <img src={BackgroundGiff} alt="Background giff" className="backgroundVideo"/>
-                </div>
+        <>  
+            <div className="hero-gradient"/>
+            <div className="background-container">
+                <img src={BackgroundGiff} alt="Background giff" className="backgroundVideo"/>
             </div>
+            <div className="hero-gradient2"/>
             <div className="container-fluid hero-container">
                 <div className="row">
                     <div className="col-12">
