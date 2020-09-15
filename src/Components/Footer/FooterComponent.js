@@ -34,7 +34,7 @@ const Footer = () => {
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-12 col-md-5">
-                        <Button1 className="footer-button" outline='true'>JOIN US</Button1>
+                        <Button1 className="footer-button" outline>JOIN US</Button1>
                     </div>
                 </div>
             </div>

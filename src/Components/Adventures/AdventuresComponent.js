@@ -18,7 +18,7 @@ const Adventures = () => {
                     <CardItem src={Everest} title={'Everest Expedition'} subtitle={'THE TOP OF THE WORLD'} text={"Meet your greatest challenge"}/>
                 </div>
                 <div className="col-12 col-md-3">
-                    <CardItem src={Volcano} title={'Kīlauea Volcano'} subtitle={"TRUE EARTH'S WARMTH"} text={"Witness the power of Hawaii's only volcano"}/>
+                    <CardItem src={Volcano} title={'Kīlauea Volcano'} subtitle={"TRUE EARTH'S WARMTH"} text={"Witness the power of Hawaii's only active volcano"}/>
                 </div>
                 <div className="col-12 col-md-3">
                     <CardItem src={Skydiving} title={'Sky Diving'} subtitle={'ABOVE THE CLOUDS'} text={"Fulfill your dream of flying"}/>
