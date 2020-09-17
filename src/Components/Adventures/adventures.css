@@ -30,6 +30,10 @@ h1{
     box-shadow: 0rem 0.5rem 3rem #acaaaa;
     max-width: 25vw;
     overflow: hidden;
+    transition: transform 1s;
+}
+.card_container:hover{    
+    transform: scale(1.05);
 }
 .card_body{
     max-width: 25vw;
@@ -56,7 +60,7 @@ h1{
     
 }
 .card_img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 900px){
