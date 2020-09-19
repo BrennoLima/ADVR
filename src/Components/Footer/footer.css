@@ -40,7 +40,7 @@
 .footer-about-title{
     font-family: 'Amatic SC', cursive;
     font-size: 2rem;
-    margin-top: 5rem; 
+    margin-top: 2rem; 
 }
 @media screen and (max-width: 900px){
     .footer-title{
