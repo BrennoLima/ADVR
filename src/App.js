@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css'
-import {BrowserRouter} from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom'
 import Main from './Components/MainComponent'
-
+import ScrollToTop from './Components/ScrollToTop'
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <Router>
+        <ScrollToTop/>
         <Main/>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }

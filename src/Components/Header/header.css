@@ -13,11 +13,30 @@
     margin-right: 0.5rem;
     font-family: 'Lato', sans-serif;
 }
+.label{
+    margin-top: 0.4rem;
+    padding: 0px;
+    text-align: center;
+}
+.modal-body{
+    text-align: center;
+}
+.signinput-header{
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+.signinput-header:focus{
+    outline: none;
+}
 
+.errText{
+    color: red;
+}
 @media screen and (max-width: 900px){
     .navbar-brand{
         margin-left: 1rem;
     }
+
 
 }
 

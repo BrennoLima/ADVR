@@ -1,6 +1,7 @@
 import React from 'react';
 import BackgroundGiff from '../../assets/videos/Adventure10.gif'
 import {Button} from 'reactstrap'
+import {Link} from 'react-router-dom'
 import styled from 'styled-components'
 import './hero.css'
 
@@ -39,7 +40,7 @@ const Hero = () => {
                     </div>
 
                     <div className="col-12">
-                        <Button1 outline>GET STARTED</Button1>
+                        <Link to="/signin"><Button1 outline>GET STARTED</Button1></Link>
                     </div>
                     <div className="col-12">
                         <Button2 outline>WATCH TRAILER  <i className="far fa-play-circle fa-lg"/></Button2>

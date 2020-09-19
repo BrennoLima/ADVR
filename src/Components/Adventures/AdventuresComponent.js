@@ -1,11 +1,7 @@
-import React from 'react';
-import Everest from '../../assets/images/Everest1.jpg'
-import Climbing from '../../assets/images/Climbing2.png'
-import Volcano from '../../assets/images/Volcano3.png'
-import Forest from '../../assets/images/Forest2.png'
-import Skydiving from '../../assets/images/Skydiving.png'
+import React from 'react'
 import CardItem from '../CardItem'
 import './adventures.css'
+import {ADVENTURES} from '../../shared/adventures'
 
 const Adventures = () => {
     return(
@@ -15,20 +11,30 @@ const Adventures = () => {
                     <h1 className="trips-title">Start your journey here</h1>
                 </div>
                 <div className="col-12 col-md-3 offset-md-1">
-                    <CardItem src={Everest} title={'Everest Expedition'} subtitle={'THE TOP OF THE WORLD'} text={"Meet your greatest challenge"}/>
+                    <CardItem src={ADVENTURES[0].image} title={ADVENTURES[0].title} 
+                    subtitle={ADVENTURES[0].subtitle} text={ADVENTURES[0].text} id={ADVENTURES[0].id}
+                    description={ADVENTURES[0].description} type={'adventures'}/>
                 </div>
                 <div className="col-12 col-md-3">
-                    <CardItem src={Volcano} title={'Kīlauea Volcano'} subtitle={"TRUE EARTH'S WARMTH"} text={"Witness the power of Hawaii's only active volcano"}/>
+                    <CardItem src={ADVENTURES[1].image} title={ADVENTURES[1].title} 
+                    subtitle={ADVENTURES[1].subtitle} text={ADVENTURES[1].text} id={ADVENTURES[1].id}
+                    description={ADVENTURES[1].description} type={'adventures'}/>
                 </div>
                 <div className="col-12 col-md-3">
-                    <CardItem src={Skydiving} title={'Sky Diving'} subtitle={'ABOVE THE CLOUDS'} text={"Fulfill your dream of flying"}/>
+                    <CardItem src={ADVENTURES[2].image} title={ADVENTURES[2].title}
+                    subtitle={ADVENTURES[2].subtitle} text={ADVENTURES[2].text} id={ADVENTURES[2].id} 
+                    description={ADVENTURES[2].description} type={'adventures'}/>
                 </div>
                 <div className="col-md-1"/>
                 <div className="col-12 col-md-3">
-                    <CardItem src={Forest} title={'Amazon Tour'} subtitle={'BECOME ONE WITH NATURE'} text={"Dig into the world's larget tropical rainforest"}/>
+                    <CardItem src={ADVENTURES[3].image} title={ADVENTURES[3].title} 
+                    subtitle={ADVENTURES[3].subtitle} text={ADVENTURES[3].text} id={ADVENTURES[3].id}
+                    description={ADVENTURES[3].description} type={'adventures'}/>
                 </div>
                 <div className="col-12 col-md-3">
-                    <CardItem src={Climbing} title={'Grand Canyon'} subtitle={'CONQUER THE GIGANTIC'} text={"Climb the iconic Arizona Canyon"}/>
+                    <CardItem src={ADVENTURES[4].image} title={ADVENTURES[4].title} 
+                    subtitle={ADVENTURES[4].subtitle} text={ADVENTURES[4].text} id={ADVENTURES[4].id}
+                    description={ADVENTURES[4].description} type={'adventures'}/>
                 </div>  
             </div>
             

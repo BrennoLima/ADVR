@@ -37,8 +37,10 @@
     font-size: 2rem;
     margin-top: 8rem;
 }
-.footer-button{
-    margin-top: 5rem;
+.footer-about-title{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    margin-top: 5rem; 
 }
 @media screen and (max-width: 900px){
     .footer-title{

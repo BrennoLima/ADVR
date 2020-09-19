@@ -1,6 +1,7 @@
 import React from 'react';
 import {Button} from 'reactstrap'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 import BackgroundGiff2 from '../../assets/videos/Adventure6.gif'
 import './footer.css'
 
@@ -34,7 +35,8 @@ const Footer = () => {
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-12 col-md-5">
-                        <Button1 className="footer-button" outline>JOIN US</Button1>
+                        <h1 className="footer-about-title">Interested? Do you wanna know more?</h1>
+                        <Link to="/aboutus"><Button1 className="footer-button" outline>ABOUT US</Button1></Link>
                     </div>
                 </div>
             </div>
