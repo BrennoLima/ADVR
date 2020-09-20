@@ -1,0 +1,12 @@
+.trailer-container{
+    min-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+}
+
+.trailer-title{
+    margin-top: 5rem;
+    font-family: 'Amatic SC', cursive;
+}
