@@ -7,8 +7,7 @@ import {useParams} from 'react-router-dom'
 const AdventureDetail = () => {
     const {Id} = useParams();
     const adventure = ADVENTURES.filter((adventure) => adventure.id === parseInt(Id, 10))[0]
-    console.log(adventure)
-
+    
     return(
         <div className="container-fluid adventuredetail-container">
             <div className="row justify-content-center">

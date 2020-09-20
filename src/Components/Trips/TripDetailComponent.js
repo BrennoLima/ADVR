@@ -7,8 +7,6 @@ import {useParams} from 'react-router-dom'
 const TripDetail = () => {
     const {Id} = useParams();
     const trip = TRIPS.filter((trip) => trip.id === parseInt(Id, 10))[0]
-    console.log(trip)
-
 
     return(
         <div className="container-fluid tripdetail-container">
