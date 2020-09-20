@@ -77,7 +77,7 @@ const Header = () => {
                                         ref={register({required: true, pattern: /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/})}/>
                                 </div>
                                 <div className="row justify-content-center">
-                                    <ErrorMessage error={errors.email} className="col-12" id="error1"/>
+                                    <div id='EmailError'><ErrorMessage error={errors.email} className="col-12" /></div>
                                 </div>
                                 <div className="row justify-content-left m-1">
                                     <label className="col-12 col-md-3 form-label-header">Password</label>
@@ -85,7 +85,7 @@ const Header = () => {
                                         ref={register({required: true, pattern: /^admin$/})}/>
                                 </div>
                                 <div className="row justify-content-center">
-                                    <ErrorMessage error={errors.password} className="col-12" id="error2"/>
+                                    <div id='PassError'><ErrorMessage  error={errors.password} className="col-12"/></div>
                                 </div>
                                 <div className="row justify-content-center mt-3">
                                     <ButtonSignInModal className="col-3 col-md-3" outline id="signinmodal"

@@ -34,25 +34,26 @@ const Signin = () => {
                     <label className="form-label col-12 col-md-2">First Name:</label>
                     <input type="text" name="firstname" id="firstname" placeholder="First Name" className="col-12 col-md-5 signinput"
                     ref={register({ required: true, minLength: 2, maxLength: 15, pattern: /^[a-zA-Z]+$/ })}/>
-                    <ErrorMessage error={errors.firstname} className="col-12 col-md-5 errorMessage"/>
+                    <div id="firstnameerror"><ErrorMessage error={errors.firstname} className="col-12 col-md-5 errorMessage"/></div>
                 </div>
                 <div className="row justify-content-left m-1">
                     <label className="form-label col-12 col-md-2">Last Name:</label>
                     <input type="text" name="lastname" id="lastname" placeholder="Last Name" className="col-12 col-md-5 signinput"
                     ref={register({ required: true, minLength: 2, maxLength: 15, pattern: /^[a-zA-Z]+$/})}/>
-                    <ErrorMessage error={errors.lastname} className="col-12 col-md-5 errorMessage"/>
+                    <div id="lastnameerror"><ErrorMessage error={errors.lastname} className="col-12 col-md-5 errorMessage"/></div>
+                    
                 </div>
                 <div className="row justify-content-left m-1">
                     <label className="form-label col-12 col-md-2">Email:</label>
                     <input type="name" name="email" id="email" placeholder="adventurer@crazyadventure.com" className="col-12 col-md-5 signinput"
                     ref={register({ required: true, pattern: /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/ })}/>
-                    <ErrorMessage error={errors.email} className="col-12 col-md-5 errorMessage"/>
+                    <div id="emailerror"><ErrorMessage error={errors.email} className="col-12 col-md-5 errorMessage"/></div>
                 </div>
                 <div className="row justify-content-left m-1">
                     <label className="form-label col-12 col-md-2">Password:</label>
                     <input type="password" name="password" id="password" className="col-12 col-md-5 signinput"
                     ref={register({ required: true, minLength: 2, maxLength: 15})}/>
-                    <ErrorMessage error={errors.password} className="col-12 col-md-5 errorMessage"/>
+                    <div id="passworderror"><ErrorMessage error={errors.password} className="col-12 col-md-5 errorMessage"/></div>
                 </div>
                 <div className="row justify-content-center">
                     <CreateBTN type="submit" className="createbtn">Create!</CreateBTN>
