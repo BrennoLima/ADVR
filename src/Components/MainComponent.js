@@ -17,7 +17,7 @@ const Main = () => {
         <>
             <Header/>
                 <Switch>
-                    <Route path='/' component = {() => <Hero/>}/>
+                    <Route exact path='/home' component = {() => <Hero/>}/>
                     <Route exact path='/adventures' component ={() => <Adventures/>}/>
                     <Route path='/adventures/:Id' component={() => <AdventureDetail/>}/>
                     <Route exact path='/trips' component ={() => <Trips/>}/>

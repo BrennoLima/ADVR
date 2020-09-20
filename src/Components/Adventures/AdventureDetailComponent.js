@@ -16,7 +16,7 @@ const AdventureDetail = () => {
             </div>
             <div className="row">
                 <div className="col-12 col-md-5 offset-md-1">
-                    <Image src={adventure.image} fluid rounded/>
+                    <Image src={adventure.image} alt={adventure.title} fluid rounded/>
                 </div>
                 <div className="col-12 col-md-5">
                     <h1 className="subtitle">{adventure.subtitle}</h1>
