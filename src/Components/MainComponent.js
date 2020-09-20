@@ -17,7 +17,7 @@ const Main = () => {
         <>
             <Header/>
                 <Switch>
-                    <Route exact path='/home' component = {() => <Hero/>}/>
+                    <Route path='/home' component = {() => <Hero/>}/>
                     <Route exact path='/adventures' component ={() => <Adventures/>}/>
                     <Route path='/adventures/:Id' component={() => <AdventureDetail/>}/>
                     <Route exact path='/trips' component ={() => <Trips/>}/>
@@ -25,7 +25,7 @@ const Main = () => {
                     <Route exact path='/signin' component={() => <Signin/>}/>
                     <Route exact path='/aboutus' component={() => <About/>}/>
                     <Route exact path='/profile' component={() => <Profile/>}/>
-                    <Redirect to="/"/>
+                    <Redirect to="/home"/>
                 </Switch>
             <Footer/>
         </>
