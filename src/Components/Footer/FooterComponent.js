@@ -36,7 +36,7 @@ const Footer = () => {
                 <div className="row justify-content-center">
                     <div className="col-12 col-md-5">
                         <h1 className="footer-about-title">Interested? Do you wanna know more?</h1>
-                        <Link to="/aboutus"><Button1 className="footer-button" outline>ABOUT US</Button1></Link>
+                        <Link id="aboutus" to="/aboutus"><Button1 className="footer-button" outline>ABOUT US</Button1></Link>
                     </div>
                 </div>
             </div>

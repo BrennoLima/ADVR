@@ -40,10 +40,10 @@ const Hero = () => {
                     </div>
 
                     <div className="col-12">
-                        <Link to="/signin"><Button1 outline>GET STARTED</Button1></Link>
+                        <Link to="/signin"><Button1 id="getstarted" outline>GET STARTED</Button1></Link>
                     </div>
                     <div className="col-12">
-                        <Button2 outline>WATCH TRAILER  <i className="far fa-play-circle fa-lg"/></Button2>
+                        <Button2 id="trailer" outline>WATCH TRAILER  <i className="far fa-play-circle fa-lg"/></Button2>
                     </div>
                 </div>
             </div>
