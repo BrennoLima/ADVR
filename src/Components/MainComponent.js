@@ -9,6 +9,7 @@ import About from './About/AboutComponent'
 import Profile from './Profile/ProfileComponent'
 import AdventureDetail from './Adventures/AdventureDetailComponent'
 import TripDetail from './Trips/TripDetailComponent'
+import Trailer from './Trailer/TrailerComponent'
 import { Switch, Route, Redirect } from 'react-router-dom'        
 
 const Main = () => {
@@ -25,6 +26,7 @@ const Main = () => {
                     <Route exact path='/signin' component={() => <Signin/>}/>
                     <Route exact path='/aboutus' component={() => <About/>}/>
                     <Route exact path='/profile' component={() => <Profile/>}/>
+                    <Route exact path='/trailer' component={() => <Trailer/>}/>
                     <Redirect to="/home"/>
                 </Switch>
             <Footer/>
