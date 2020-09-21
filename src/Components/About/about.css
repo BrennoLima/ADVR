@@ -1,6 +1,6 @@
 .about-container{
     background-color: black;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     align-items: center;
     text-align: center;
@@ -8,5 +8,27 @@
 .about-title{
     font-family: 'Amatic SC', cursive;
     font-size: 5rem;
-    padding-top: 4rem;
+    padding-top: 1rem;
+}
+.brenno-title{
+    font-family: 'Amatic SC', cursive;
+    font-size: 4rem;
+    color: white;
+    padding: 1rem
+}
+
+.brenno-subtitle{
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    color: white;
+}
+.brenno-site{
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    color: blue
+}
+.slide-image{
+    object-fit: cover;
+    width: 50vw;
+    height: 50vh;
 }
