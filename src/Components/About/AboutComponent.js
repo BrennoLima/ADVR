@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './about.css'
-import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption } from 'reactstrap';
+import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, 
+        CarouselCaption } from 'reactstrap';
+import Breadcrumb from 'react-bootstrap/Breadcrumb'
+import { Link } from 'react-router-dom'
 import {myAdventures} from '../../shared/myAdventures'
 import {Image} from 'react-bootstrap'
 
@@ -38,14 +41,15 @@ const About = () => {
 
     return(
         <div className="container-fluid about-container">
+            <div>
+                <Breadcrumb>
+                    <Link to="/" className="font-fm">Home</Link>
+                    <Breadcrumb.Item/>
+                    <Breadcrumb.Item className="font-fm" active>About Us</Breadcrumb.Item>
+                </Breadcrumb>
+            </div>
             <h1 className="about-title">About <s>US</s> ME!</h1>
             <div className="row justify-content-center">
-                <div className="col-12">
-                    <h3 className="brenno-title">Hey! I am Brenno, and I am an ADVENTURER!</h3>
-                </div>
-                <div className="col-12">
-                    <h4 className="brenno-subtitle">I decided to create this application to practice my skills joining 2 things that I love. Adventures and Coding! Unfortunately I am not selling (I wish I could) those AMAZING adventurous packages</h4>
-                </div>
                 <div className="col-12">
                     <a className="brenno-site" href="https://www.brennolima.com/">Here you can find my professional web site</a>
                 </div>

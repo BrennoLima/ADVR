@@ -4,11 +4,11 @@
     text-align: center;
     align-items: center;
     background-color: black;
+    padding-right: 2rem !important;
 }
 
 .title{
     font-family: 'Amatic SC', cursive;
-    margin-top: 2rem;
     margin-bottom: 5rem;
     font-size: 5rem;
 }
