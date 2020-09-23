@@ -24,7 +24,7 @@ const TripDetail = () => {
             </div>
             <div className="row">
                 <div className="col-12 col-md-5 offset-md-1">
-                    <Image src={trip.image} alt={trip.title} fluid rounded/>
+                    <Image src={trip.image} alt={trip.title} className="trip-detail-image" fluid rounded/>
                 </div>
                 <div className="col-12 col-md-5">
                     <h1 className="subtitle">{trip.subtitle}</h1>

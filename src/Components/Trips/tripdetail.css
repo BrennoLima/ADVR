@@ -6,7 +6,13 @@
     background-color: black;
     padding-right: 2rem !important;
 }
-
+.trip-detail-image{
+    box-shadow: 0rem 0 5rem #acaaaa;
+    transition: transform 1s;
+}
+.trip-detail-image:hover{
+    transform: scale(1.05);
+}
 .title{
     font-family: 'Amatic SC', cursive;
     margin-bottom: 5rem;

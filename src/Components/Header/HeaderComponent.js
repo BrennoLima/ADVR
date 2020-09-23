@@ -47,7 +47,7 @@ const Header = () => {
         <div className="container-fluid navbar-container" id="navbar-container">
             <OnOutsiceClick onOutsideClick={closeCollapse}>
             <BlackNavbar dark expand="md">
-                <NavbarBrand className="navbar-brand" id="brand" href="/">ADVR<i className="fas fa-mountain ml-2"/></NavbarBrand>
+                <NavbarBrand className="navbar-brand" id="brand" href="/"><i className="fas fa-mountain ml-2"/> ADVR</NavbarBrand>
                     <NavbarToggler onClick={toggle} className="toggler"/>
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="ml-auto" navbar>
