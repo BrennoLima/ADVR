@@ -4,7 +4,6 @@ import '../Adventures/adventures.css'
 import {TRIPS} from '../../shared/trips'
 
 const Trips = () => {
-    console.log(TRIPS)
     return(
         <div className="container-fluid trips-container" id="trips">
             <div className="row row-title justify-content-center">

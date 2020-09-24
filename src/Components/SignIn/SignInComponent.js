@@ -21,7 +21,6 @@ const Signin = () => {
 
     const { register, handleSubmit, errors } = useForm();
     const onSubmit = data => {
-        console.log(data)
         history.push('/profile')
     }
     
