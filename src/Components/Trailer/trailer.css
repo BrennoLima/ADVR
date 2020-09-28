@@ -1,5 +1,5 @@
+
 .trailer-container{
-    min-height: 100vh;
     width: 100vw;
     text-align: center;
     align-items: center;
@@ -7,6 +7,17 @@
 }
 
 .trailer-title{
-    padding-top: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
     font-family: 'Amatic SC', cursive;
+    font-size: 6rem;
+}
+.video-container{
+    padding-bottom: 3rem;
+}
+@media screen and (max-width: 900px){
+    .trailer-title{
+        font-size: 2rem;
+        padding-bottom: none;
+    }
 }

@@ -1,3 +1,4 @@
+
 .footer-background-container{
     z-index: -1;
     max-height: 100vh;
@@ -44,15 +45,15 @@
 }
 @media screen and (max-width: 900px){
     .footer-title{
-        font-size: 4rem;
-        margin-top: 2rem;
+        font-size: 3rem;
+        margin-top: 5rem;
     }
     .footer-subtitle{
-        font-size: 2rem;
+        font-size: 1rem;
         margin-top: 0;
     }
     .footer-subtitle2{
-        font-size: 2rem;
+        font-size: 1rem;
         margin-top: 5rem;
     }
-}
+}   
