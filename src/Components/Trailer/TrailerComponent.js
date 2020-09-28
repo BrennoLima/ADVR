@@ -1,6 +1,6 @@
 import React from 'react';
 import './trailer.css'
-import ReactPlayer from 'react-player/lazy'
+import ReactPlayer from 'react-player'
 
 const Trailer = () => {
     return(
